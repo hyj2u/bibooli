@@ -1,0 +1,215 @@
+.datatable1_1 {
+    display: block;
+    overflow: hidden;
+    width: 704px;
+    height: 91px;
+    padding: 4px 6px 21px;
+    margin-bottom: 16px;
+}
+.head1{
+    float: left;
+    display: inline-block;
+    width: 120px;
+    height: 33px;
+    color: #FAFAFA99;
+    text-align: right;
+    font-size: 15px;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+}
+.content1 {
+    float: left;
+    display: inline-block;
+    width: 120px;
+    height: 33px;
+    color: #FAFAFA;
+    text-align: right;
+    font-size: 15px;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+}
+.datatable2_1 {
+    display: block;
+    overflow: hidden;
+    width: 704px;
+    height: 91px;
+    padding: 4px 6px 21px;
+    margin-bottom: 16px;
+}
+.head2 {
+    float: left;
+    display: inline-block;
+    width: 57px;
+    height: 33px;
+    color: #FAFAFA99;
+    text-align: left;
+    font-size: 15px;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+    font-weight: 400;
+}
+.content2 {
+    float: left;
+    display: inline-block;
+    width: 57px;
+    height: 33px;
+    color: #FAFAFA;
+    text-align: left;
+    font-size: 15px;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+}
+.datatable3_1 {
+    float: left;
+    display: block;
+    width: 704px;
+    overflow: hidden;
+    padding: 4px 6px;
+    margin-bottom: 16px;
+    font-size: 0;
+}
+.time3_1 {
+    float: left;
+    display: inline-block;
+    width: 172.28px;
+    height: 33.07px;
+    font-size: 15px;
+    color: #FAFAFA99;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+}
+.event3_1 {
+    float: left;
+    display: inline-block;
+    width: 317.85px;
+    height: 33.07px;
+    font-size: 15px;
+    color: #FAFAFA;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+}
+.actual3_1 {
+    float: left;
+    display: inline-block;
+    width: 57.03px;
+    height: 33.07px;
+    font-size: 15px;
+    color: #FAFAFA;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+}
+.forecast3_1 {
+    float: left;
+    display: inline-block;
+    width: 69.93px;
+    height: 33.07px;
+    font-size: 15px;
+    color: #FAFAFA;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+}
+.previous3_1 {
+    float: left;
+    display: inline-block;
+    width: 74.13px;
+    height: 33.07px;
+    font-size: 15px;
+    color: #FAFAFA;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+}
+.datatable4_1 {
+    float: left;
+    display: block;
+    width: 704px;
+    overflow: hidden;
+    padding: 4px 6px;
+    margin-bottom: 16px;
+    font-size: 0;
+}
+.time4_1 {
+    float: left;
+    display: inline-block;
+    width: 120.54px;
+    height: 57px;
+    font-size: 16px;
+    color: #FAFAFA99;
+    padding: 4px 6px;
+    border: 1.5px solid #26282E;
+}
+.title4_1 {
+    float: left;
+    display: inline-block;
+    width: 570.46px;
+    height: 57px;
+    font-size: 15px;
+    color: #FAFAFA;
+    padding: 16.5px 6px;
+    border: 1.5px solid #26282E;
+}
+.datatable5_1 {
+    float: left;
+    display: block;
+    width: 704px;
+    overflow: hidden;
+    padding: 4px 6px;
+    margin-bottom: 16px;
+    font-size: 0;
+}
+.time5_1 {
+    float: left;
+    display: table;
+    width: 101.24px;
+    height: 57px;
+    font-size: 16px;
+    color: #FAFAFA99;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+}
+.title5_1 {
+    float: left;
+    display: table;
+    width: 589.76px;
+    height: 57px;
+    font-size: 16px;
+    color: #FAFAFA;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+}
+.box {
+    display: table-cell;
+    vertical-align: middle;
+}
+.datatable6_1 {
+    float: left;
+    display: block;
+    width: 704px;
+    overflow: hidden;
+    padding: 4px 6px;
+    margin-bottom: 16px;
+    font-size: 0;
+}
+.time6_1 {
+    float: left;
+    display: inline-block;
+    width: 200px;
+    height: 33px;
+    font-size: 16px;
+    color: #FAFAFA99;
+    padding: 4px 6px;
+    border: 1px solid #26282E;
+}
+.title6_1 {
+    float: left;
+    display: inline-block;
+    width: 492px;
+    height: 33px;
+    font-size: 15px;
+    color: #FAFAFA;
+    padding: auto 6px;
+    border: 1px solid #26282E;
+    padding: 4px 6px;
+}
+.box {
+    padding: auto 0;
+}

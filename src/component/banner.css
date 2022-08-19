@@ -1,0 +1,39 @@
+.banner {
+    display: block;
+    width: 100%;
+    height: 46px;
+    color: white;
+    background-color: #0E1117;
+    padding: 5px 6px;
+    z-index: 1;
+    position: fixed;
+    top: 2px;
+    left: 0;
+}
+.banner button{
+    display: inline-flex;
+    height: 36px;
+    width: 36px;
+    padding: 8px;
+    background-color: inherit;
+    align-items: center;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.banner button:hover {
+    background-color: #3A3B46;
+    cursor: pointer;
+}
+.banner button:active {
+    outline: 3.5px solid #93393E;
+}
+@keyframes open {
+    0% {left: -336px;}
+    100% {legt: 0px;}
+}
+#play_open {
+    animation: open 0.4s forwards;
+}
