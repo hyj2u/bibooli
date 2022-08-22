@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+.title {
+    display: block;
+    color: white;
+    padding: 20px 0 16px;
+    overflow: hidden;
+}
+.title h1 {
+    font-weight: 700;
+}
+.subtitle {
+    display: block;
+    color: white;
+    padding: 16px 0px;
+    overflow: hidden;
+}
+.Pbox {
+    display: flex;
+    width: 704px;
+    height: 92.8px;
+    margin-bottom: 16px;
+}
+.Cbox6 {
+    display: inline-block;
+    height: 92.8px;
+}
+.top {
+    display: inline-block;
+    height: 24px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.middle {
+    display: inline-block;
+    height: 48.8px;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding: 0 0 4px;
+}
+.bottom {
+    display: inline-block;
+    height: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.icon {
+    margin: 0 2px 0 0;
+    font-size: 16px;
+}
+.Tbox {
+    display: block;
+    overflow: hidden;
+    width: 704px;
+    height: 215.2px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 16px;
+}
+.tbox {
+    display: inline-block;
+    width: 698px;
+    height: 28.4px;
+    border-left: 1px solid #3A3B46;
+    padding: 3px 5px 3px 20px;
+    margin-left: 6px;
+}
+.tbox span {
+    display: inline-block;
+    margin-right: 3px;
+}
+.closebox {
+    display: block;
+    width: 704px;
+    height: 22.4px;
+    font-family: 'Source Code Pro', monospace;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.closebox span {
+    display: inline-block;
+    margin-right: 3px;
+}
+.close_down {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    padding: 0 4px 0 0;
+    color: #66D9EF;
+}
+.close_right {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    padding: 0 4px 0 0;
+    color: #AE81FF;
+}
+.content {
+    display: block;
+    width: 704px;
+    height: 25.6px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0 0px 16px;
+}
+.nav_contain {
+    display: block;
+    width: 704px;
+    overflow: hidden;
+    padding : 16px 0 0;
+}

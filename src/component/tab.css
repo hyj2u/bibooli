@@ -1,0 +1,75 @@
+.tab_wrap {
+    display: block;
+    background-color: #262730;
+    width: 336px;
+    height: calc(100vh - 2px);
+    overflow: overlay;
+    position: fixed;
+    top: 2px;
+    left: 0px;
+    z-index: 100;
+    transition: all .35s;
+    overflow: hidden;
+}
+@keyframes close {
+    0% {left: 0px;}
+    100% {left: -336px;}
+}
+#play_close {
+    animation : close 0.4s forwards;
+}
+.tab_wrap div {
+    display: block;
+    height: 46px;
+    width: 336px;
+    text-align: right;
+    overflow: auto;
+    padding: 5px 6px;
+}
+.tab_wrap button {
+    display: inline-flex;
+    height: 36px;
+    width: 36px;
+    padding: 8px;
+    background-color: inherit;
+    align-items: center;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.tab_wrap button:hover {
+    background-color: #3A3B46;
+    cursor: pointer;
+}
+.tab_wrap button:active {
+    outline: 3.5px solid #93393E;
+}
+.list {
+    padding: 50px 0 16px;
+}
+.list a {
+    display: inline-block;
+    color: #FFFFFF;
+    width: 336px;
+    height: 32px;
+    padding: 0 16px;
+    font-size: 16px;
+}
+.list a:hover {
+    background-color: #3A3B46;
+    cursor: pointer;
+}
+.icon {
+    width: 20px;
+    height:20px;
+    color: #B2B7CA;
+    margin-right: 4.5px;
+    padding: 1.5px;
+}
+.list span {
+    display: inline-block;
+    height: 32px;
+    padding: 4px;
+}
