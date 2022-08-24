@@ -10,6 +10,7 @@
     z-index: 100;
     transition: all .35s;
     overflow: hidden;
+    padding: 0 18px;
 }
 @keyframes close {
     0% {left: 0px;}
@@ -21,10 +22,11 @@
 .tab_wrap div {
     display: block;
     height: 46px;
-    width: 336px;
+    width: 300px;
     text-align: right;
     overflow: auto;
     padding: 5px 6px;
+    margin-top: 18px;
 }
 .tab_wrap button {
     display: inline-flex;
@@ -52,10 +54,12 @@
 .list a {
     display: inline-block;
     color: #FFFFFF;
-    width: 336px;
-    height: 32px;
-    padding: 0 16px;
+    width: 300px;
+    height: 48px;
+    padding: 8px 16px;
     font-size: 16px;
+    margin: 0 0 8px;
+    border-radius: 10px
 }
 .list a:hover {
     background-color: #3A3B46;

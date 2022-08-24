@@ -41,10 +41,16 @@
 }
 .container {
     display: block;
-    width: 736px;
+    width: 750px;
     margin: 0 auto;
     overflow: auto;
-    padding: 96px 16px 160px;
+    padding: 96px 0px 160px;
     overflow-y: auto;
     overflow-x: hidden;
+}
+.card {
+    display: block;
+    width: 750px;
+    border-radius: 15px;
+    padding: 38px 23px;
 }

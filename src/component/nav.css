@@ -1,7 +1,7 @@
 .nav {
     position: relative;
     display: block;
-    background-color: #0E1117;
+    background-color: none;
     height: 42px;
     max-width: 704px;
     margin: 0 0 -2px;
@@ -16,7 +16,7 @@
     height: 40px;
     width: fit-content;
     color: white;
-    background-color: #0E1117;
+    background-color: none;
     font-size: 14px;
     margin: 5.5px 14px 5.5px 0px;
     padding-top: 5px;
