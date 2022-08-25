@@ -15,10 +15,18 @@ function Main() {
         <div className='section'>
             <div className='container'>
                 <Title title='Main : Market Monitoring'/>
+<<<<<<< HEAD
+=======
+                <div className='card' style={{backgroundColor:color_card}}>
+>>>>>>> 70fdc2f393cbc24f6ef662e7751a707d834cda39
                     <Nav list={nav_lst} state={nav_state} changeNavPage={changeNavPage} width={100}/>
                     {nav_page===0 && <MainNav1/>}
                     {nav_page===1 && <MainNav2/>}
                     {nav_page===2 && <MainNav3/>}
+<<<<<<< HEAD
+=======
+                </div>
+>>>>>>> 70fdc2f393cbc24f6ef662e7751a707d834cda39
             </div>
         </div>  
     );

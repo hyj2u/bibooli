@@ -41,7 +41,11 @@
 }
 .container {
     display: block;
+<<<<<<< HEAD
     width: 850px;
+=======
+    width: 750px;
+>>>>>>> 70fdc2f393cbc24f6ef662e7751a707d834cda39
     margin: 0 auto;
     overflow: auto;
     padding: 96px 0px 160px;
@@ -50,9 +54,15 @@
 }
 .card {
     display: block;
+<<<<<<< HEAD
     width: 850px;
     border-radius: 15px;
     padding: 16px 16px;
     margin-bottom: 35px;
     height: fit-content;
+=======
+    width: 750px;
+    border-radius: 15px;
+    padding: 38px 23px;
+>>>>>>> 70fdc2f393cbc24f6ef662e7751a707d834cda39
 }

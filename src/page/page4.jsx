@@ -18,8 +18,11 @@ function Page4() {
                 <div className='card' style={{backgroundColor:color_card}}>
                     <Subtitle subtitle={'1.USDD - Algorithmic stablecoin'}/>
                     {clickstate===true?<Textbox2 clickstate={clickstate} changeClick={changeClick}/>:<TextboxClose2 clickstate={clickstate} changeClick={changeClick}/>}
+<<<<<<< HEAD
                 </div>
                 <div className='card' style={{backgroundColor:color_card}}>
+=======
+>>>>>>> 70fdc2f393cbc24f6ef662e7751a707d834cda39
                     <Content content={'<USDD Collateral ratio(%)>'}/>
                     <div id="vis"></div>
                     <LineChart/>

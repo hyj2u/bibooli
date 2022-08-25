@@ -18,8 +18,11 @@ function Page3() {
                 <div className='card' style={{backgroundColor:color_card}}>
                     <Subtitle subtitle={'1.DAI - Algorithmic stablecoin'}/>
                     {clickstate===true?<Textbox1 clickstate={clickstate} changeClick={changeClick}/>:<TextboxClose1 clickstate={clickstate} changeClick={changeClick}/>}
+<<<<<<< HEAD
                 </div>
                 <div className='card' style={{backgroundColor:color_card}}>
+=======
+>>>>>>> 70fdc2f393cbc24f6ef662e7751a707d834cda39
                     <Content content={'<TOTAL RISKY DEBT(%)>'}/>
                     <LineChart/>
                     <BarChart/>

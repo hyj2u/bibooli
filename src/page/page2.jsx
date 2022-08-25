@@ -14,12 +14,17 @@ function Page2() {
                 <div className='card' style={{backgroundColor:color_card}}>
                     <Subtitle subtitle={"1.Onchain_P&L_Score"}/>
                     <Databox41/>
+<<<<<<< HEAD
                 </div>
                 <div className='card' style={{backgroundColor:color_card}}>
                     <Subtitle subtitle={'2.Market_Derivatives_Score'}/>
                     <Databox42/>
                 </div>
                 <div className='card' style={{backgroundColor:color_card}}>
+=======
+                    <Subtitle subtitle={'2.Market_Derivatives_Score'}/>
+                    <Databox42/>
+>>>>>>> 70fdc2f393cbc24f6ef662e7751a707d834cda39
                     <Subtitle subtitle={'3.Whale score'}/>
                     <Databox43/>
                 </div>
