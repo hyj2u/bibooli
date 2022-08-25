@@ -214,21 +214,21 @@ function Datatable3_1() {
         }
     ]
     return(
-        <div className='datatable3_1'>
+        <table className='datatable3_1'>
             {
                 data.map(function(a, i){
                     return(
-                        <>
-                            <span key={i} className='time3_1'>{a.time}</span>
-                            <span key={i} className='event3_1'>{a.event}</span>
-                            <span key={i} className='actual3_1'>{a.actual}</span>
-                            <span key={i} className='forecast3_1'>{a.forecast}</span>
-                            <span key={i} className='previous3_1'>{a.previous}</span>
-                        </>
+                        <tr>
+                            <th key={i} className='time3_1'>{a.time}</th>
+                            <td key={i} className='event3_1'>{a.event}</td>
+                            <td key={i} className='actual3_1'>{a.actual}</td>
+                            <td key={i} className='forecast3_1'>{a.forecast}</td>
+                            <td key={i} className='previous3_1'>{a.previous}</td>
+                        </tr>
                     );
                 })
             }
-        </div>
+        </table>
     );
 }
 

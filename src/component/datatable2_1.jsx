@@ -48,22 +48,24 @@ function Datatable2_1() {
         }
     ]
     return(
-        <div className='datatable1_1'>
+        <table>
+        <tr className='datatable1_1'>
             {
                 data.map(function(a, i){
                     return(
-                        <span key={i} className='head2' style={i===0 ? {width:'72px'}:(i===data.length-1?{width:'107px'}:null)}>{a.head}</span>
+                        <th key={i} className='head2' style={i===0 ? {width:'77px'}:(i===data.length-1?{width:'120px'}:null)}>{a.head}</th>
                     );
                 })
             }
             {
                 data.map(function(a, i){
                     return(
-                        <span key={i} className='content2' style={i===0 ? {width:'72px'}:(i===data.length-1?{width:'107px'}:null)}>{a.content}</span>
+                        <td key={i} className='content2' style={i===0 ? {width:'77px'}:(i===data.length-1?{width:'120px'}:null)}>{a.content}</td>
                     );
                 })
             }
-        </div>
+        </tr>
+        </table>
     );
 }
 

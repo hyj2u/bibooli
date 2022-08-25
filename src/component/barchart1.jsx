@@ -1,9 +1,11 @@
 import VegaLite from "react-vega-lite";
 import data from "./data1";
+import color_card from "./color_card";
+import './chart.css';
 
 const spec = {
   config: {
-    background: "#0e1117",
+    background: color_card,
     axis: {
       labelColor: "#fafafa",
       titleColor: "#fafafa",

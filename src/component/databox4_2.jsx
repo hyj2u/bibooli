@@ -28,12 +28,12 @@ function Databox4_2 () {
         <div className='Pbox' style={{gap:'16px'}}>
         {data.map(function(a, i){
             return(
-                <div key={i} className='Cbox6' style={{width:'164px'}}>
-                    <span className='top' style={{width:'164px'}}>{a.top}</span>
-                    <span className='middle' style={{width:'164px'}}>{a.middle}</span>
-                    <span className='bottom' style={a.bottom >= 0?{width:'164px', color:'#09B33D'}:{width:'104px', color:'#FF2B2B'}}>
-                        {a.bottom!=null && a.bottom >= 0 && <BsArrowUp className='icon' style={{color:'#09B33D'}}/>}
-                        {a.bottom!=null && a.bottom < 0 && <BsArrowDown className='icon' style={{color:'#FF2B2B'}}/>}
+                <div key={i} className='Cbox6' style={{width:'185px'}}>
+                    <span className='top' style={{width:'185px'}}>{a.top}</span>
+                    <span className='middle' style={{width:'185px'}}>{a.middle}</span>
+                    <span className='bottom' style={a.bottom >= 0?{width:'185px', color:'#00AB55'}:{width:'185px', color:'#FC4B6C'}}>
+                        {a.bottom!=null && a.bottom >= 0 && <BsArrowUp className='icon' style={{color:'#00AB55'}}/>}
+                        {a.bottom!=null && a.bottom < 0 && <BsArrowDown className='icon' style={{color:'#FC4B6C'}}/>}
                     {a.bottom}</span>
                 </div>
             );

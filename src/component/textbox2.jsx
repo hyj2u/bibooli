@@ -40,7 +40,7 @@ function Textbox2(props) {
                         <div key={i} className='tbox'>
                             <span style={{color:'#F9F8F5'}}>{a.left}</span>
                             <span>:</span>
-                            <span style={{color:'#FD971F'}}>{a.right}</span>
+                            <span style={{color:'#FDD43F'}}>{a.right}</span>
                         </div>
                     );
                 })

@@ -2,7 +2,7 @@
     display: block;
     width: calc(100% - 336px);
     height: calc(100vh - 2px);
-    background-color: #0E1117;
+    background-color: #20232A;
     position: relative;
     top: 2px;
     left: 336px;
@@ -18,11 +18,11 @@
 }
 .section::-webkit-scrollbar-thumb {
     height: 73%;
-    background-color: #0E1117;
+    background-color: #20232A;
     border-radius: 100px;
 }
 .section:hover::-webkit-scrollbar-thumb{
-    background-color: #6C6E72;
+    background-color: #33373E;
 }
 @keyframes up {
     0% {width:calc(100% - 336px); left:336px;}
@@ -41,10 +41,18 @@
 }
 .container {
     display: block;
-    width: 736px;
+    width: 850px;
     margin: 0 auto;
     overflow: auto;
-    padding: 96px 16px 160px;
+    padding: 96px 0px 160px;
     overflow-y: auto;
     overflow-x: hidden;
+}
+.card {
+    display: block;
+    width: 850px;
+    border-radius: 15px;
+    padding: 16px 16px;
+    margin-bottom: 35px;
+    height: fit-content;
 }

@@ -1,213 +1,192 @@
 .datatable1_1 {
-    display: block;
     overflow: hidden;
-    width: 704px;
+    width: 802px;
     height: 91px;
     padding: 4px 6px 21px;
     margin-bottom: 16px;
 }
 .head1{
     float: left;
-    display: inline-block;
-    width: 120px;
+    width: 142.8px;
     height: 33px;
-    color: #FAFAFA99;
+    color: #e6e5e899;
     text-align: right;
     font-size: 15px;
     padding: 4px 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
+    font-weight: 400;
 }
 .content1 {
     float: left;
-    display: inline-block;
-    width: 120px;
+    width: 142.8px;
     height: 33px;
     color: #FAFAFA;
     text-align: right;
     font-size: 15px;
     padding: 4px 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
 }
 .datatable2_1 {
-    display: block;
     overflow: hidden;
-    width: 704px;
+    width: 802px;
     height: 91px;
     padding: 4px 6px 21px;
     margin-bottom: 16px;
 }
 .head2 {
     float: left;
-    display: inline-block;
-    width: 57px;
+    width: 67.2px;
     height: 33px;
     color: #FAFAFA99;
     text-align: left;
     font-size: 15px;
     padding: 4px 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
     font-weight: 400;
 }
 .content2 {
     float: left;
-    display: inline-block;
-    width: 57px;
+    width: 67.2px;
     height: 33px;
     color: #FAFAFA;
     text-align: left;
     font-size: 15px;
     padding: 4px 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
 }
 .datatable3_1 {
-    float: left;
-    display: block;
-    width: 704px;
-    overflow: hidden;
-    padding: 4px 6px;
+    width: 802px;
+    height: 91px;
+    padding: 4px 6px 21px;
     margin-bottom: 16px;
-    font-size: 0;
 }
 .time3_1 {
     float: left;
-    display: inline-block;
-    width: 172.28px;
+    width: 264px;
     height: 33.07px;
     font-size: 15px;
     color: #FAFAFA99;
     padding: 4px 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
+    font-weight: 400;
 }
 .event3_1 {
     float: left;
-    display: inline-block;
-    width: 317.85px;
+    width: 319px;
     height: 33.07px;
     font-size: 15px;
     color: #FAFAFA;
     padding: 4px 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
 }
 .actual3_1 {
     float: left;
-    display: inline-block;
-    width: 57.03px;
+    width: 57px;
     height: 33.07px;
     font-size: 15px;
     color: #FAFAFA;
     padding: 4px 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
 }
 .forecast3_1 {
     float: left;
-    display: inline-block;
-    width: 69.93px;
+    width: 72px;
     height: 33.07px;
     font-size: 15px;
     color: #FAFAFA;
     padding: 4px 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
 }
 .previous3_1 {
     float: left;
-    display: inline-block;
-    width: 74.13px;
+    width: 74px;
     height: 33.07px;
     font-size: 15px;
     color: #FAFAFA;
     padding: 4px 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
 }
 .datatable4_1 {
-    float: left;
-    display: block;
-    width: 704px;
-    overflow: hidden;
-    padding: 4px 6px;
+    width: 802px;
+    height: 91px;
+    padding: 4px 6px 21px;
     margin-bottom: 16px;
-    font-size: 0;
 }
 .time4_1 {
     float: left;
-    display: inline-block;
     width: 120.54px;
     height: 57px;
     font-size: 16px;
     color: #FAFAFA99;
     padding: 4px 6px;
-    border: 1.5px solid #26282E;
+    border: 1.5px solid #949DB299;
+    font-weight: 400;
 }
 .title4_1 {
     float: left;
-    display: inline-block;
-    width: 570.46px;
+    width: 660px;
     height: 57px;
     font-size: 15px;
     color: #FAFAFA;
     padding: 16.5px 6px;
-    border: 1.5px solid #26282E;
+    border: 1.5px solid #949DB299;
 }
 .datatable5_1 {
-    float: left;
-    display: block;
-    width: 704px;
-    overflow: hidden;
-    padding: 4px 6px;
+    width: 802px;
+    height: 91px;
+    padding: 4px 6px 21px;
     margin-bottom: 16px;
-    font-size: 0;
 }
 .time5_1 {
     float: left;
-    display: table;
     width: 101.24px;
     height: 57px;
     font-size: 16px;
     color: #FAFAFA99;
     padding: 4px 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
+    font-weight: 400;
+    margin: 0;
 }
 .title5_1 {
     float: left;
     display: table;
-    width: 589.76px;
+    width: 685px;
     height: 57px;
     font-size: 16px;
     color: #FAFAFA;
-    padding: 4px 6px;
-    border: 1px solid #26282E;
+    padding: 5px 6px;
+    border: 1px solid #949DB299;
+    margin: 0;
 }
 .box {
     display: table-cell;
     vertical-align: middle;
 }
 .datatable6_1 {
-    float: left;
-    display: block;
-    width: 704px;
-    overflow: hidden;
-    padding: 4px 6px;
+    width: 802px;
+    height: 91px;
+    padding: 4px 6px 21px;
     margin-bottom: 16px;
-    font-size: 0;
 }
 .time6_1 {
     float: left;
-    display: inline-block;
     width: 200px;
     height: 33px;
     font-size: 16px;
     color: #FAFAFA99;
     padding: 4px 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
+    font-weight: 400;
 }
 .title6_1 {
     float: left;
-    display: inline-block;
-    width: 492px;
+    width: 582px;
     height: 33px;
     font-size: 15px;
     color: #FAFAFA;
     padding: auto 6px;
-    border: 1px solid #26282E;
+    border: 1px solid #949DB299;
     padding: 4px 6px;
 }
 .box {

@@ -8,7 +8,7 @@ function Textbox_close1(props) {
                 props.changeClick(true);
             }}><BsCaretRightFill/></span>
             <span>&#123;</span>
-            <span style={{color:'#FD971F', fontSize:'18px'}}>...</span>
+            <span style={{color:'#FDD43F', fontSize:'18px'}}>...</span>
             <span>&#125;</span>
         </div>
     );

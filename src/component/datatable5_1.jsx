@@ -48,18 +48,18 @@ function DataTable5_1() {
         }
     ]
     return(
-        <div className='datatable5_1'>
+        <table className='datatable5_1'>
             {
                 data.map(function(a,i){
                     return(
                         <tr key={i}>
                             <td className='time5_1' key={i}><p className='box'>{a.time}</p></td>
-                            <td className='title5_1' key={i}><p className='box'>{a.title}</p></td>
+                            <td className='title5_1' key={i}><p className='box' style={{padding:'5px 6px'}}>{a.title}</p></td>
                         </tr>
                     );
                 })
             }
-        </div>
+        </table>
     );
 }
 

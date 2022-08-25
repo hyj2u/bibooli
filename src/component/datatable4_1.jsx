@@ -48,18 +48,18 @@ function Datatable4_1() {
         }
     ];
     return(
-        <div className='datatable4_1'>
+        <table className='datatable4_1'>
             {
                 data.map(function(a, i){
                     return(
-                        <>
-                            <span key={i} className='time4_1' style={i===0 ? {height:'33px'}:null}>{a.time}</span>
-                            <span key={i} className='title4_1' style={i===0 ? {color:'#FFFFFF99', height:'33px', padding:'5px 6px'}:null}>{a.title}</span>
-                        </>
+                        <tr>
+                        <th key={i} className='time4_1' style={i===0 ? {height:'33px'}:null}>{a.time}</th>
+                        <td key={i} className='title4_1' style={i===0 ? {color:'#FFFFFF99', height:'33px', padding:'5px 6px'}:null}>{a.title}</td>
+                        </tr>
                     );
                 })
             }
-        </div>
+        </table>
     );
 }
 

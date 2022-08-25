@@ -28,22 +28,24 @@ function Datatable1_2() {
         },
     ]
     return(
-        <div className='datatable1_1'>
+        <table>
+        <tr className='datatable1_1'>
             {
                 data.map(function(a, i){
                     return(
-                        <span key={i} className='head1' style={i===0 ? {width:'88px'}:null}>{a.head}</span>
+                        <th key={i} className='head1' style={i===0 ? {width:'88px'}:null}>{a.head}</th>
                     );
                 })
             }
             {
                 data.map(function(a, i){
                     return(
-                        <span key={i} className='content1' style={i===0 ? {color:'#FAFAFA99', textAlign:'left', width:'88px'}:null}>{a.content}</span>
+                        <td key={i} className='content1' style={i===0 ? {color:'#FAFAFA99', textAlign:'left', width:'88px'}:null}>{a.content}</td>
                     );
                 })
             }
-        </div>
+        </tr>
+        </table>
     );
 }
 

@@ -7,6 +7,7 @@ import { useState } from 'react';
 import Content from '../component/content';
 import LineChart from '../component/linechart2.jsx';
 import BarChart from '../component/barchart2.jsx';
+import color_card from '../component/color_card';
 
 function Page4() {
     let [clickstate, changeClick] = useState(true);
@@ -14,12 +15,16 @@ function Page4() {
         <div className='section'>
             <div className='container'>
                 <Title title={'Page5 : Risk on Tron'}/>
-                <Subtitle subtitle={'1.USDD - Algorithmic stablecoin'}/>
-                {clickstate===true?<Textbox2 clickstate={clickstate} changeClick={changeClick}/>:<TextboxClose2 clickstate={clickstate} changeClick={changeClick}/>}
-                <Content content={'<USDD Collateral ratio(%)>'}/>
-                <div id="vis"></div>
-                <LineChart/>
-                <BarChart/>
+                <div className='card' style={{backgroundColor:color_card}}>
+                    <Subtitle subtitle={'1.USDD - Algorithmic stablecoin'}/>
+                    {clickstate===true?<Textbox2 clickstate={clickstate} changeClick={changeClick}/>:<TextboxClose2 clickstate={clickstate} changeClick={changeClick}/>}
+                </div>
+                <div className='card' style={{backgroundColor:color_card}}>
+                    <Content content={'<USDD Collateral ratio(%)>'}/>
+                    <div id="vis"></div>
+                    <LineChart/>
+                    <BarChart/>
+                </div>
             </div>
         </div>  
     );

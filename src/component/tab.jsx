@@ -29,7 +29,7 @@ function Tab(props) {
                                     newArr[i] = true;
                                     changeIsClick(newArr);
                                     props.changePage(i);
-                                }} style={isClick[i]?{color:'white', backgroundColor:'#3A3B46', fontWeight:'600'}: {color:'white', backgroundColor:'#262730'}}>
+                                }} style={isClick[i]?{color:'white', backgroundColor:'#03C9D7'}: {color:'white', backgroundColor:'#282C34'}}>
                                     <FaRegFileAlt className='icon'/> 
                                     <span>{a}</span>
                                 </a>

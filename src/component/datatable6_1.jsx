@@ -48,18 +48,18 @@ function Datatable6_1() {
         }
     ]
     return(
-        <div className='datatable6_1'>
+        <table className='datatable6_1'>
             {
                 data.map(function(a, i){
                     return(
-                        <>
-                            <span key={i} className='time6_1'>{a.time}</span>
-                            <span key={i} className='title6_1' style={i===0?{color:'#FFFFFF99'}:null}>{a.title}</span>
-                        </>
+                        <tr>
+                            <th key={i} className='time6_1'>{a.time}</th>
+                            <td key={i} className='title6_1' style={i===0?{color:'#FFFFFF99'}:null}>{a.title}</td>
+                        </tr>
                     );
                 })
             }
-        </div>
+        </table>
     );
 }
 

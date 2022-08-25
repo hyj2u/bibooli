@@ -1,6 +1,6 @@
 .tab_wrap {
     display: block;
-    background-color: #262730;
+    background-color: #282C34;
     width: 336px;
     height: calc(100vh - 2px);
     overflow: overlay;
@@ -21,10 +21,11 @@
 .tab_wrap div {
     display: block;
     height: 46px;
-    width: 336px;
+    width: inherit;
     text-align: right;
     overflow: auto;
     padding: 5px 6px;
+    margin:0;
 }
 .tab_wrap button {
     display: inline-flex;
@@ -40,22 +41,25 @@
     font-size: 20px;
 }
 .tab_wrap button:hover {
-    background-color: #3A3B46;
+    background-color: #03C9D7;
     cursor: pointer;
 }
 .tab_wrap button:active {
-    outline: 3.5px solid #93393E;
+    outline: 3.5px solid #FFFFFF;
 }
 .list {
     padding: 50px 0 16px;
 }
 .list a {
+    background-color: inherit;
     display: inline-block;
     color: #FFFFFF;
-    width: 336px;
-    height: 32px;
-    padding: 0 16px;
+    width: 300px;
+    height: 48px;
+    padding: 8px 16px;
     font-size: 16px;
+    margin: 0 18px 8px;
+    border-radius: 10px
 }
 .list a:hover {
     background-color: #3A3B46;
@@ -64,7 +68,7 @@
 .icon {
     width: 20px;
     height:20px;
-    color: #B2B7CA;
+    color: #FFFFFF;
     margin-right: 4.5px;
     padding: 1.5px;
 }

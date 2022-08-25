@@ -22,7 +22,7 @@ function Nav(props) {
                             newArr[i] = true
                             changeColor(newArr); 
                             props.changeNavPage(i);
-                        }} style={color[i]?{color:'#E63B37'}:{color:'#FFFFFF'}}>{a}</span>
+                        }} style={color[i]?{color:'#03C9D7'}:{color:'#FFFFFF'}}>{a}</span>
                         )
                     })
                 }
