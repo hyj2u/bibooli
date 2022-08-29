@@ -220,24 +220,24 @@ function BitCoin() {
                 <div className="items">
                     <div className="eachItem addTab">
                         <div className="tabBtn">
-                            <button className={tabType == 1 ? 'active' : ''}
+                            <button className={tabType === 1 ? 'active' : ''}
                                 onClick={() => settabType(1)}
                             >Overview</button>
-                            <button className={tabType == 2 ? 'active' : ''}
+                            <button className={tabType === 2 ? 'active' : ''}
                                 onClick={() => settabType(2)}
                             >Onchain PnL Score</button>
-                            <button className={tabType == 3 ? 'active' : ''}
+                            <button className={tabType === 3 ? 'active' : ''}
                                 onClick={() => settabType(3)}
                             >Market Derivatives Score</button>
-                            <button className={tabType == 4 ? 'active' : ''}
+                            <button className={tabType === 4 ? 'active' : ''}
                                 onClick={() => settabType(4)}
                             >Whale Score</button>
                         </div>
                         <div className="tabContent">
-                            {tabType == 1 && <OverviewComponent />}
-                            {tabType == 2 && <OnchainComponent />}
-                            {tabType == 3 && <MarketComponent />}
-                            {tabType == 4 && <WhaleComponent />}
+                            {tabType === 1 && <OverviewComponent />}
+                            {tabType === 2 && <OnchainComponent />}
+                            {tabType === 3 && <MarketComponent />}
+                            {tabType === 4 && <WhaleComponent />}
                         </div>
                     </div>
                 </div>

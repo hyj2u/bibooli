@@ -53,19 +53,19 @@ function Header({ viewType, setviewType }){
                     <li className='active'>
                         <button>&#183; Horus</button>
                         <ul className='depth2'>
-                            <li className={viewType == 'market' ? 'active' : '' }
+                            <li className={viewType === 'market' ? 'active' : '' }
                                 onClick={() => setviewType('market')}>
                                 <button>&#183; Market monitoring</button>
                             </li>
-                            <li className={viewType == 'bitcoin' ? 'active' : '' }
+                            <li className={viewType === 'bitcoin' ? 'active' : '' }
                                 onClick={() => setviewType('bitcoin')}>
                                 <button>&#183; Bitcoin</button>
                             </li>
-                            <li className={viewType == 'ethereum' ? 'active' : '' }
+                            <li className={viewType === 'ethereum' ? 'active' : '' }
                                 onClick={() => setviewType('ethereum')}>
                                 <button>&#183; Ethereum</button>
                             </li>
-                            <li className={viewType == 'tron' ? 'active' : '' }
+                            <li className={viewType === 'tron' ? 'active' : '' }
                                 onClick={() => setviewType('tron')}>
                                 <button>&#183; Tron</button>
                             </li>

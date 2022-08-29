@@ -13,10 +13,10 @@ function App() {
     <div className="App">
       <Header viewType={viewType} setviewType={setviewType} />
 
-      {viewType == 'market' &&  <MarketMonitoring />}
-      {viewType == 'bitcoin' &&  <BitCoin />}
-      {viewType == 'ethereum' &&  <Ethereum />}
-      {viewType == 'tron' &&  <Tron />}
+      {viewType === 'market' &&  <MarketMonitoring />}
+      {viewType === 'bitcoin' &&  <BitCoin />}
+      {viewType === 'ethereum' &&  <Ethereum />}
+      {viewType === 'tron' &&  <Tron />}
     </div>
   );
 }

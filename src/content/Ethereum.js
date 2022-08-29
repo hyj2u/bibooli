@@ -158,16 +158,16 @@ function Ethereum() {
                 <div className="items">
                     <div className="eachItem addTab">
                         <div className="tabBtn">
-                            <button className={tabType == 1 ? 'active' : ''}
+                            <button className={tabType === 1 ? 'active' : ''}
                                 onClick={() => settabType(1)}
                             >Achilles tendon</button>
-                            <button className={tabType == 2 ? 'active' : ''}
+                            <button className={tabType === 2 ? 'active' : ''}
                                 onClick={() => settabType(2)}
                             >Growth</button>
                         </div>
                         <div className="tabContent">
-                            {tabType == 1 && <AchillesComponent />}
-                            {tabType == 2 && <GrowthComponent />}
+                            {tabType === 1 && <AchillesComponent />}
+                            {tabType === 2 && <GrowthComponent />}
                         </div>
                     </div>
                 </div>
