@@ -22,7 +22,7 @@ function Header({ viewType, setviewType }){
             </h2>
                 <ul>
                     <li>
-                        <button>&#183; 요약</button>
+                        <button>&#183; 자산수익분석</button>
                     </li>
                     <li>
                         <button>&#183; 위험모니터링</button>
